@@ -1,0 +1,88 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #078930;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header
+{
+    height: 100vh;
+    text-align: center;
+
+    border: 1px solid black;
+}
+
+.header-title
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: xx-large;
+}
+
+.content
+{
+    padding: 7.5em 10em 7.5em 10em;
+    
+    background-color: #fffbe6;
+}
+
+.content-title
+{
+    color: #e4676b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content-text
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+ul
+{
+    list-style-position: inside;
+}
+
+.images
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/** Quick fix for resizing images, not permanent solution**/
+.images img
+{
+    width: 33%;
+    height: 200px;
+
+    border-radius: .25em;
+}
+
+.footer
+{
+    background-color: #feed81;
+    border-top: 1px solid black;
+}
+
+.footer-content
+{
+
+    display: flex;
+    padding-left: 7.5em;
+    padding-right: 7.5em;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
